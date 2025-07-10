@@ -26,6 +26,9 @@
     color: #252432;
     /* color:chocolate; */
 }
+.bgc{
+    background-color: #F5F8FF;
+}
 .btn{
     color: #FFFFFF;
     background-color: #4E47FF;
@@ -91,7 +94,7 @@ header {
 
 
 /* productive-action-box */
-.productive-action-box h2{
+.tit{
     font-size: 38px;
     margin-bottom: 30px;
 }
@@ -114,4 +117,50 @@ header {
     opacity: 50%;
     font-size: 20px;
     margin: 0;
+}
+
+/* Users’ Feedback Section */
+.main-s3{
+    margin-bottom: 100px;
+}
+.main-s3 h2{
+    text-align: center;
+}
+.s3-div-items{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.s3-div-box{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border:1px solid #F2EDED;
+    padding: 20px;
+}
+.star-div img{
+    margin-bottom: 20px;
+}
+.s3-div-box .px{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.div-user{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.py{
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 70%;
+}
+.pz{
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 40%;
 }
