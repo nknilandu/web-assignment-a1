@@ -24,6 +24,7 @@
 }
 .dark-color{
     color: #252432;
+    /* color: chartreuse; */
 }
 .btn{
     color: #FFFFFF;
@@ -66,4 +67,24 @@ header {
     font-size: 50px;
     font-weight: 700;
     margin: 30px 0;
+}
+/* part2 */
+.s1-div-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.div-item h1{
+    font-size: 40px;
+}
+.div-item p{
+    opacity: 50%;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.s1-div-items .img1{
+    height: 310px;
+    width: 400px;
+    border-radius: 38px;
 }
