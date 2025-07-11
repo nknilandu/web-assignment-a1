@@ -78,10 +78,10 @@ header {
     align-items: center;
     margin: 100px 0;
 }
-.div-item h1{
+.div-item h1, .s4-div h1{
     font-size: 40px;
 }
-.div-item p{
+.div-item p, .s4-div p{
     opacity: 50%;
     margin: 20px 0;
     font-size: 20px;
@@ -163,4 +163,18 @@ header {
     font-size: 14px;
     font-weight: 600;
     opacity: 40%;
+}
+.s4-div{
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 60px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.s4-div img{
+    width: 850px;
+    height: 360px;
+    border-radius: 40px;
+    margin-top: 20px;
 }
