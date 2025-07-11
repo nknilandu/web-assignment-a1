@@ -178,3 +178,37 @@ header {
     border-radius: 40px;
     margin-top: 20px;
 }
+/* section 5 */
+.s5-div-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.f-tit{
+    font-size: 90px;
+    font-weight: bold;
+}
+.form-data label{
+    display: block;
+}
+.lab{
+    font-size: 15px;
+    font-weight: 600;
+}
+.inp{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: #252432;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 8px 0 15px;
+    width: 83%;
+}
+.smt{
+    width: 100%;
+}
